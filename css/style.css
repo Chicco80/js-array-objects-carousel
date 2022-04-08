@@ -65,6 +65,10 @@
   width: 100%;
   color: white;
 }
+.prev:hover, 
+.next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 #slider .fa-circle-chevron-down,
 #slider .fa-circle-chevron-up {
   cursor: pointer;
@@ -74,4 +78,23 @@
 }
 .prev {
   bottom: -20px;
+}
+
+.btn{
+  
+  position: absolute;
+  left:50%;
+  top:80%;
+  transform: translate(-80%, -50%);
+  
+}
+#stop{
+  width: 50px;
+  height: 50px;
+  padding:10px;
+  background-color: pearlwhite;
+  color: red;
+  border:3px solid red;
+  border-radius: 50%;
+  cursor: pointer;
 }
